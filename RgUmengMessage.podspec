@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "RgUmengMessage"
-s.version          = "0.1.0"
+s.version          = "0.1.4"
 s.summary          = "友盟消息推送SDK无IDFA版"
 s.description      = <<-DESC
 It is a marquee view used on iOS, which implement by Objective-C.
