@@ -22,7 +22,7 @@ s.source_files  = "UMeng/*.{h,m}"
 
 s.public_header_files = "UMeng/*.h"
 
-s.preserve_paths = "RgUmengMessage/libUMessage_Sdk_1.3.0.a"
+s.preserve_paths = "UMeng/libUMessage_Sdk_1.3.0.a"
 s.library   = "UMessage_Sdk_1.3.0"
 s.requires_arc = true
 s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "$(PODS_ROOT)/RgUmengMessage/UMeng/" }
