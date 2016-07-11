@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "RgUmengMessage"
-s.version          = "0.1.5"
+s.version          = "0.1.6"
 s.summary          = "友盟消息推送SDK无IDFA版"
 s.description      = <<-DESC
 It is a marquee view used on iOS, which implement by Objective-C.
@@ -23,7 +23,7 @@ s.source_files  = "UMeng/*.{h,m}"
 s.public_header_files = "UMeng/*.h"
 
 s.preserve_paths = "UMeng/libUMessage_Sdk_1.3.0.a"
-s.library   = "UMeng"
+s.library   = "libUMessage_Sdk_1.3.0"
 s.requires_arc = true
 s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "$(PODS_ROOT)/RgUmengMessage/UMeng/" }
 
