@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "RgUmengMessage"
-s.version      = "0.1.8"
+s.version      = "0.1.9"
 s.summary      = "友盟消息推送SDK无IDFA版"
 
 # This description is used to generate tags and improve search results.
@@ -88,7 +88,7 @@ s.platform     = :ios, "6.0"
 #  Supports git, hg, bzr, svn and HTTP.
 #
 
-s.source       = { :git => "https://github.com/RogueAndy/RogueKit2.git", :tag => s.version.to_s }
+s.source       = { :git => "https://github.com/RogueAndy/RgUmengMessage.git", :tag => s.version.to_s }
 
 
 # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
